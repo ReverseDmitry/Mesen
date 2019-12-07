@@ -6,15 +6,15 @@
 			<Control ID="mnuOpen">Открыть</Control>
 			<Control ID="mnuSaveState">Сохранить</Control>
 			<Control ID="mnuLoadState">Загрузить</Control>
-			<Control ID="mnuLoadLastSession">Load Last Session</Control>
+			<Control ID="mnuLoadLastSession">Загрузить последнюю сессию</Control>
 			<Control ID="mnuRecentFiles">Недавние файлы</Control>
 			<Control ID="mnuExit">Выход</Control>
 			<Control ID="mnuGame">Игра</Control>
 			<Control ID="mnuPause">Пауза</Control>
 			<Control ID="mnuReset">Сброс</Control>
-			<Control ID="mnuPowerCycle">Power Cycle</Control>
-			<Control ID="mnuReloadRom">Reload ROM</Control>
-			<Control ID="mnuPowerOff">Power Off</Control>
+			<Control ID="mnuPowerCycle">Цикл питания</Control>
+			<Control ID="mnuReloadRom">Перезагрузить ROM</Control>
+			<Control ID="mnuPowerOff">Отключить питание</Control>
 			<Control ID="mnuSwitchDiskSide">Сменить сторону диска</Control>
 			<Control ID="mnuSelectDisk">Выбрать диск</Control>
 			<Control ID="mnuEjectDisk">Извлечь диск</Control>
@@ -25,9 +25,9 @@
 			<Control ID="mnuInsertCoin4">Вставить монету в слот 4 (DualSystem)</Control>
 			<Control ID="mnuInputBarcode">Input Barcode</Control>
 			<Control ID="mnuTapeRecorder">Tape Recorder</Control>
-			<Control ID="mnuLoadTapeFile">Load from file...</Control>
-			<Control ID="mnuStartRecordTapeFile">Record to file...</Control>
-			<Control ID="mnuStopRecordTapeFile">Stop recording</Control>
+			<Control ID="mnuLoadTapeFile">Загрузить с файла...</Control>
+			<Control ID="mnuStartRecordTapeFile">Записать в файл...</Control>
+			<Control ID="mnuStopRecordTapeFile">Остановить запись</Control>
 			<Control ID="mnuOptions">Опции</Control>
 			<Control ID="mnuEmulationSpeed">Скорость эмуляции</Control>
 			<Control ID="mnuEmuSpeedNormal">Нормальная (100%)</Control>
@@ -62,7 +62,7 @@
 			<Control ID="mnuEmulationConfig">Эмуляция</Control>
 			<Control ID="mnuPreferences">Настройки</Control>
 			<Control ID="mnuTools">Утилиты</Control>
-			<Control ID="mnuHistoryViewer">History Viewer</Control>
+			<Control ID="mnuHistoryViewer">История</Control>
 			<Control ID="mnuNetPlay">Игра по сети</Control>
 			<Control ID="mnuStartServer">Запустить сервер</Control>
 			<Control ID="mnuConnect">Подключиться к серверу</Control>
@@ -81,7 +81,7 @@
 			<Control ID="mnuSoundRecorder">Запись звука</Control>
 			<Control ID="mnuWaveRecord">Начать</Control>
 			<Control ID="mnuWaveStop">Остановить</Control>
-			<Control ID="mnuVideoRecorder">Video Recorder</Control>
+			<Control ID="mnuVideoRecorder">Запись видео</Control>
 			<Control ID="mnuAviRecord">Начать</Control>
 			<Control ID="mnuAviStop">Остановить</Control>
 			<Control ID="mnuCheats">Читы</Control>
@@ -96,15 +96,15 @@
 			<Control ID="mnuRunAllTests">Запустить все тесты</Control>
 			<Control ID="mnuDebugger">Отладчик</Control>
 			<Control ID="mnuLogWindow">Лог</Control>
-			<Control ID="mnuInstallHdPack">Install HD Pack</Control>
-			<Control ID="mnuHdPackEditor">HD Pack Builder</Control>
+			<Control ID="mnuInstallHdPack">Загрузить HD Pack</Control>
+			<Control ID="mnuHdPackEditor">Строитель HD Pack</Control>
 			<Control ID="mnuTakeScreenshot">Сделать скриншот</Control>
-			<Control ID="mnuRandomGame">Load Random Game</Control>
+			<Control ID="mnuRandomGame">Загрузить случайную игру</Control>
 			<Control ID="mnuHelp">Помощь</Control>
-			<Control ID="mnuOnlineHelp">Online Help</Control>
+			<Control ID="mnuOnlineHelp">Онлайн-помощь</Control>
 			<Control ID="mnuCheckForUpdates">Проверить обновления</Control>
 			<Control ID="mnuReportBug">Сообщить об ошибке</Control>
-			<Control ID="mnuHelpWindow">Command-line options</Control>
+			<Control ID="mnuHelpWindow">Опции командной строки</Control>
 			<Control ID="mnuAbout">О программе</Control>
 
 			<!-- Archive Load Message -->
@@ -115,10 +115,10 @@
 			<Control ID="lblArtist">Автор</Control>
 			<Control ID="lblCopyright">Copyright</Control>
 			<Control ID="lblSoundChips">Звуковые чипы</Control>
-			<Control ID="lblRecording">REC</Control>
-			<Control ID="lblSlowMotion">Slow Motion</Control>
-			<Control ID="lblRewinding">Rewinding</Control>
-			<Control ID="lblFastForward">Fast Forward</Control>
+			<Control ID="lblRecording">ЗАПИСЬ</Control>
+			<Control ID="lblSlowMotion">Замедленно</Control>
+			<Control ID="lblRewinding">Перемотка назад</Control>
+			<Control ID="lblFastForward">Перемотка вперёд</Control>
 		</Form>
 		<Form ID="frmLogWindow" Title="Лог">
 			<Control ID="btnClose">Закрыть</Control>
@@ -126,36 +126,36 @@
 		<Form ID="frmAudioConfig" Title="Звук">
 			<Control ID="tpgGeneral">Общие</Control>
 			<Control ID="tpgAdvanced">Расширенные</Control>
-			<Control ID="chkDisableDynamicSampleRate">Disable dynamic sample rate</Control>
+			<Control ID="chkDisableDynamicSampleRate">Отключить динамическую частоту дискретизации</Control>
 			<Control ID="chkSwapDutyCycles">Перепутанная скважность (как на старых клонах)</Control>
 			<Control ID="chkSilenceTriangleHighFreq">Заглушать ультразвуковые частоты на канале triangle (уменьшает "треск")</Control>
-			<Control ID="chkReduceDmcPopping">Reduce popping sounds on the DMC channel</Control>
-			<Control ID="chkDisableNoiseModeFlag">Disable noise channel mode flag</Control>
+			<Control ID="chkReduceDmcPopping">Уменьшить звуковые хлопки на DMC канале</Control>
+			<Control ID="chkDisableNoiseModeFlag">Отключить флаг режима шумового канала</Control>
 			<Control ID="tpgEffects">Эффекты</Control>
 			<Control ID="grpStereo">Стерео</Control>
 			<Control ID="radStereoDisabled">Отключить</Control>
 			<Control ID="radStereoDelay">Задержка</Control>
 			<Control ID="radStereoPanning">Панорамирование</Control>
 			<Control ID="lblStereoDelayMs">мс</Control>
-			<Control ID="lblStereoPanningAngle">угол в градусах</Control>
-			<Control ID="radStereoCombFilter">Comb Filter</Control>
+			<Control ID="lblStereoPanningAngle">Угол в градусах</Control>
+			<Control ID="radStereoCombFilter">Гребенчатый фильтр</Control>
 			<Control ID="lblStereoCombFilterMs">мс</Control>
 			<Control ID="lblStereoCombFilterDelay">Задержка :</Control>
 			<Control ID="lblStereoCombFilterStrength">Сила :</Control>
-			<Control ID="chkCrossFeedEnabled">Enable Crossfeed:</Control>
+			<Control ID="chkCrossFeedEnabled">Разрешить кольцевание:</Control>
 			<Control ID="grpReverb">Реверберация</Control>
 			<Control ID="chkReverbEnabled">Включена</Control>
 			<Control ID="lblReverbDelay">Задержка :</Control>
 			<Control ID="lblReverbStrength">Сила :</Control>
 			<Control ID="chkMuteSoundInBackground">Отключать звук при потере фокуса</Control>
 			<Control ID="chkReduceSoundInBackground">Приглушать звук при потере фокуса</Control>
-			<Control ID="chkReduceSoundInFastForward">Reduce volume during fast forward/rewind</Control>
-			<Control ID="trkVolumeReduction">Volume Reduction (%)</Control>
-			<Control ID="lblVolumeReductionSettings">Volume Reduction Settings</Control>
+			<Control ID="chkReduceSoundInFastForward">Приглушать звук при перемотке</Control>
+			<Control ID="trkVolumeReduction">Уменьшение громкости (%)</Control>
+			<Control ID="lblVolumeReductionSettings">Настройки уменьшения громкости</Control>
 			<Control ID="chkEnableAudio">Включить звук</Control>
 			<Control ID="lblSampleRate">Частота дискретизации:</Control>
 			<Control ID="lblLatencyMs">мс</Control>
-			<Control ID="lblLatencyWarning">Low values may cause sound problems</Control>
+			<Control ID="lblLatencyWarning">Низкие значения могут вызвать проблемы со звуком</Control>
 			<Control ID="lblAudioLatency">Задержка:</Control>
 			<Control ID="lblAudioDevice">Устройство:</Control>
 			<Control ID="tpgVolume">Громкость</Control>
@@ -164,7 +164,7 @@
 			<Control ID="btnOK">OK</Control>
 			<Control ID="btnCancel">Отмена</Control>
 			<Control ID="trkDmcVol">DMC</Control>
-			<Control ID="trkNoiseVol">Noise</Control>
+			<Control ID="trkNoiseVol">Звук</Control>
 			<Control ID="trkTriangleVol">Triangle</Control>
 			<Control ID="trkSquare2Vol">Square 2</Control>
 			<Control ID="trkSquare1Vol">Square 1</Control>
@@ -178,7 +178,7 @@
 
 			<Control ID="tpgPanning">Panning</Control>
 			<Control ID="trkDmcPan">DMC</Control>
-			<Control ID="trkNoisePan">Noise</Control>
+			<Control ID="trkNoisePan">Звук</Control>
 			<Control ID="trkTrianglePan">Triangle</Control>
 			<Control ID="trkSquare2Pan">Square 2</Control>
 			<Control ID="trkSquare1Pan">Square 1</Control>
@@ -189,8 +189,8 @@
 			<Control ID="trkNamcoPan">Namco</Control>
 			<Control ID="trkSunsoftPan">Sunsoft</Control>
 
-			<Control ID="tpgEqualizer">Equalizer</Control>
-			<Control ID="chkEnableEqualizer">Enable equalizer</Control>
+			<Control ID="tpgEqualizer">Эквалайзер</Control>
+			<Control ID="chkEnableEqualizer">Разрешить эквалайзер</Control>
 		</Form>
 		<Form ID="frmInputConfig" Title="Устройства ввода">
 			<Control ID="btnOK">OK</Control>
@@ -200,7 +200,7 @@
 			<Control ID="btnSetupP3">Настроить</Control>
 			<Control ID="btnSetupExp">Настроить</Control>
 			<Control ID="btnSetupCartridge">Настроить</Control>
-			<Control ID="lblCartridge">Cartridge:</Control>
+			<Control ID="lblCartridge">Картридж:</Control>
 			<Control ID="lblPlayer1">Контроллер 1:</Control>
 			<Control ID="lblPlayer2">Контроллер 2:</Control>
 			<Control ID="lblPlayer4">Контроллер 4:</Control>
@@ -221,13 +221,13 @@
 			<Control ID="lblDisplayPosition">Позиция :</Control>
 			<Control ID="chkDisplayInputHorizontally">Отображать горизонтально</Control>
 
-			<Control ID="lblSmall">Small</Control>
-			<Control ID="lblLarge">Large</Control>
-			<Control ID="lblDeadzone">Controller axis deadzone size:</Control>
+			<Control ID="lblSmall">Маленький</Control>
+			<Control ID="lblLarge">Огромный</Control>
+			<Control ID="lblDeadzone">Размер зоны нечувствительности оси контроллера:</Control>
 			
-			<Control ID="chkHideMousePointerForZapper">Hide mouse pointer when using zapper</Control>
+			<Control ID="chkHideMousePointerForZapper">Спрятать курсор мыши при использовании заппера</Control>
 
-			<Control ID="lblKeyBinding">Warning: Your current configuration contains conflicting key bindings - some physical buttons on your keyboard or gamepad are mapped to multiple buttons on the NES controller. If this is not intentional, please review and correct your key bindings.</Control>
+			<Control ID="lblKeyBinding">Предупреждение: Настройки ваших клавиш кофликтуют - некоторые кнопки на вашей клавиатуре или контроллере настроены на несколько кнопок контроллера NES. Если это не было сделано специально, пожалуйста вернитесь и исправте ваши привязки к клавишам.</Control>
 		</Form>
 		<Form ID="frmVideoConfig" Title="Настройки видео">
 			<Control ID="tpgGeneral">Общие</Control>
